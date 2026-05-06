@@ -1,0 +1,54 @@
+# Эталонный .gitignore для Unity-проектов
+
+# Папки, которые генерируются Unity автоматически (их коммитить нельзя)
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# Снимки памяти и записи
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Плагины IDE (Visual Studio, Rider и т.д.)
+/[Aa]ssets/Plugins/Editor/JetBrains*
+.vs/
+.gradle/
+ExportedObj/
+.consulo/
+
+# Автосгенерированные файлы проектов и решений
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Мета-файлы сгенерированных баз данных
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Отчеты о крашах
+sysinfo.txt
+
+# Сборки (билды)
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Упакованные ассеты
+*.bundle
